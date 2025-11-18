@@ -23,47 +23,11 @@ Separación de responsabilidades
 
 Patrones de diseño (Strategy, MVC/MVVM adaptado, DAO)
 
-📂 Estructura del Proyecto
-/gestor_tareas/
+gestor_tareas/
 │
 ├── src/
-│   ├── main.py
-│   ├── gui/
-│   │   ├── app.py
-│   │   ├── task_form.py
-│   │   └── task_list.py
-│   │
-│   ├── models/
-│   │   ├── task.py
-│   │   └── task_manager.py
-│   │
-│   ├── persistence/
-│   │   ├── json_storage.py
-│   │   ├── csv_storage.py
-│   │   └── sqlite_storage.py
-│   │
-│   ├── strategies/
-│   │   ├── base_strategy.py
-│   │   ├── date_strategy.py
-│   │   ├── category_strategy.py
-│   │   └── manual_strategy.py
-│   │
-│   └── utils/
-│       └── validators.py
-│
 ├── tests/
-│   ├── test_task.py
-│   ├── test_manager.py
-│   └── test_strategies.py
-│
 ├── docs/
-│   ├── casos_de_uso.pdf
-│   ├── diagrama_clases_uml.png
-│   ├── diagrama_secuencia.png
-│   └── decisiones_de_diseño.pdf
-│
-├── README.md
-└── requirements.txt
 
 🛠️ Instalación
 1️⃣ Clonar repositorio
